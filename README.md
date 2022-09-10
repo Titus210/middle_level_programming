@@ -1,8 +1,7 @@
 # 			C++ Language
 ***
 ##	 	Introduction
-C++ is a statically typed general purpose freeform midle level language developed by [Bjane Stroustrup](
-https://en.wikipedia.org/wiki/Bjarne_Stroustrup#:~:text=Bjarne%20Stroustrup%20(%2F%CB%88bj,Computer%20Science%20at%20Columbia%20University) in 1979.
+C++ is a statically typed general purpose freeform midle level language developed by[Bjane Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup#:~:text=Bjarne%20Stroustrup%20(%2F%CB%88bj,Computer%20Science%20at%20Columbia%20University.com) in 1979.
 C++ is statically typed because type check is performed during compile time as opossed to runtime.
 ### 	Features of C++
 The main feature of C++ is Object Oriented programming which uses objects to represent real world entitywhich is set to design program using classes and objects.
