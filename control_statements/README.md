@@ -3,7 +3,7 @@
 In most program execution, flow control and loop is important for a program.<br/>
 `if` , `if-else` , `Nested if`, `if-else-if` are important in decision making to decide what execution to be carried next.They decide direction of flow of program.<br/>
 ****
-1. ** if statement**:
+1. **if statement**:
 	If a certain condition is true thena a block of code is executed otherwise not
 	```
 		if (condition)
@@ -11,7 +11,7 @@ In most program execution, flow control and loop is important for a program.<br/
 			//condition to execute when true
 		}
 	```
-2. ** if-else **:
+2. **if-else**:
 	Else condition executes when condition is false
 	```
 		if(condition)
@@ -19,7 +19,7 @@ In most program execution, flow control and loop is important for a program.<br/
 		else
 			\\ excecutes otherwise
 	```
-3. ** if-else-if **:
+3. __ if-else-if__:
 	If-else-if ladder is used to execute code with decision among multiple options until condition is True else false on end of ladder
 	```
 		if(condition 1)
@@ -29,7 +29,7 @@ In most program execution, flow control and loop is important for a program.<br/
 		else
 			if all are false
 	```
-4. ** Nested if **
+4. __Nested if__
 	This is execution of if condition by executing the outer condition then followed by inner condition.
 	It only executes when condition on outside the contol flow is true
 	```
@@ -41,7 +41,7 @@ In most program execution, flow control and loop is important for a program.<br/
 				\\ statement when false
 		}
 	```
-5. ** Break, continue and Goto  Jump statements **
+5. **Break, continue and Goto  Jump statements**
 -	Break:
 		Terminates loop as soon as its encountered  and control returns to first loop immediately
 	```
@@ -89,7 +89,7 @@ Loop executes at least once, whether condition is true or false. ie `do-while` l
 		while (test expression)
 			//code to execute;
 	```
-3. 	** do while **
+3. 	**do while**
 	The  condition is tested on end of loop after execution. It executes once irrespective to test condition
 	```
 		initialize;
