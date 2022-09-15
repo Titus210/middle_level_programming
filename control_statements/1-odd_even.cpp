@@ -7,13 +7,13 @@ int main()
 	cout >> num ;
 	// Check if even
 	if (num % 2 == 0)
-		cout << "The number : %d is even\n"<< num << endl;
+		cout << "The number :" <<num<< " is even\n"<< num << endl;
 	else
-		cout << "The number : %d is odd\n" << num << endl;
+		cout << "The number :" <<num << "  is odd" << endl;
 	// Using ternary operator
 	cout << "Enter another number to check:\n"<< endl;
 	cin >> num2;
-	(num % 2 == 0) ? (cout << "THe number %d : is even\n" << num2) : (cout << "The number %d is Odd ");
+	(num % 2 == 0) ? (cout << "THe number" <<num1<< " : is even\n") : (cout << "The number"<<num1 <<" is Odd ");
 	cout << endl;
 	return;
 }
