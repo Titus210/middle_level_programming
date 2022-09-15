@@ -12,7 +12,7 @@ int main()
 
 	cout << "Enter Year to check if leap year\n" << endl;
 	cin >> year;
-	((year % 4 == 0 &&  year % 100 != 0) || year % 400 == 0) ? (cout << " %d is a leap year" << year) : (cout <<"%d id not a leap year " << year );
+	((year % 4 == 0 &&  year % 100 != 0) || year % 400 == 0) ? (cout << year << "  is a leap year") : (cout<< year <<" id not a leap year " );
 	cout << endl;
 	return 0;
 }
