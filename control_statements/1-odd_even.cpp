@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int num;
+	int num, num1;
 	cout << "Enter a number to check whether odd or even\n" << endl;
 	cout >> num ;
 	// Check if even
