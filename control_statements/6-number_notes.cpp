@@ -70,8 +70,8 @@ int main()
 	cout << " 50 = " << note_50 <<endl;
 	cout << " 20 = " << coin_20 <<endl;
 	cout << " 10 = " << coin_10 <<endl;
-	cout << " 5 =  %d\n" << coin_5 <<endl;
-	cout << " 1 =  %d\n" << coin_1 <<endl;
+	cout << " 5 =  " << coin_5 <<endl;
+	cout << " 1 =  " << coin_1 <<endl;
 	return 0;
 }
 
