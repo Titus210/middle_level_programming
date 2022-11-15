@@ -8,7 +8,7 @@ void nameTOBinary(string name)
 	// Getting length of name
 	int n = name.length();
 
-	for (int i = 0; 1 <= n; i++)
+	for (int i = 0; i <= n; i++)
 	{
 		// Convert Each character to its equivalent ASCII value
 		int val = int(name[i]);
