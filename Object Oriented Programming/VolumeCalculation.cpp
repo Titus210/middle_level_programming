@@ -33,7 +33,7 @@ int main()
     box2.width = 22.00;
     box2.length = 29.00;
 
-    // Volume of box
+    // Display Volume of box
 
     volume = box1.height * box1.width * box1.length ;
     cout << "Volume of Box 1 is: " << volume <<endl;
