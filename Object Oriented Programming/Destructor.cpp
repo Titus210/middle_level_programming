@@ -20,5 +20,6 @@ int main(void)
 {
 
     Employee e1;
+    cout << &e1 << endl;
     Employee e2;
 }
