@@ -1,12 +1,15 @@
 #include <iostream>
 using namespace std;
 
+// initialixe student class
 class Student
 {
 public:
     int id;
     string name;
     static int count;
+
+    // Refer to current instance of Student
 
     Student(int id, string name)
     {
@@ -15,6 +18,7 @@ public:
         count++;
     }
 
+    // displays the student information
     void display()
     {
         cout << id << " " << name << endl;
@@ -22,6 +26,8 @@ public:
 };
 
 int Student::count = 0;
+
+// declaring driver function
 
 int main(void)
 {
