@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "ostream": "cpp"
+    },
+    "cSpell.words": [
+        "cout",
+        "endl"
+    ]
+}
