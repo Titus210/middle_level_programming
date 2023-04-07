@@ -4,20 +4,24 @@ using namespace std;
 
 // Functions Declarations
 void quit(char name[]);
+char customerName();
 
 int main(){
-	char name[30];
-	cout << "Enter Your Name: " <<std::endl;
-	cin >> name;
+	char custName[30];
+	custName = customerName(*custName[30]);
 
-	quit(name);
+	quit(custName);
 	return 0;
 }
 
 /*
  * NAME INPUT
 */
-
+char customerName(char &userName){
+	cout << "Enter Your Name: " <<std::endl;
+	cin >> userName;
+	return userName;
+}
 
 /*
  * PIZZA
