@@ -1,4 +1,5 @@
 #include <iostream>
+#include <time.h>
 using namespace std;
 
 
@@ -14,6 +15,7 @@ int main(){
 	return 0;
 }
 
+
 /*
  * NAME INPUT
 */
@@ -23,9 +25,39 @@ char customerName(char &userName){
 	return userName;
 }
 
+
+
+/*
+ * Order Receipt
+*/
+class Receipt{
+	double total_bill;
+	double order_number;
+
+	time_t time_delivered;
+
+	/* Method to print Order Sucess */
+	void orderSuccess(){
+		cout << "Thanks for making your order";
+	}
+}
+
+
+
 /*
  * PIZZA
 */
+
+class Pizza{
+	public:
+		char pizza_type[] ={"Pepperoni","Vegie","Chicago","Detroit","St. Louis","Neapolitian"};
+		double pizza_price ={14.00, 14.00, 12.00,18.00,16.00,15.00};
+		double price_per_size = {
+		/* method to display pizza size */
+		int pizzaSize(){
+			cout << "Small size" <<endl;
+
+}
 
 
 /*
