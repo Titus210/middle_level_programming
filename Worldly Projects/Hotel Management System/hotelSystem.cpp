@@ -54,7 +54,7 @@ public:
 	double pizza_price = {14.00, 17.00, 12.00, 18.00, 16.00, 15.00};
 	double percentage_per_size = {0.0, 0.2, 0.35, 0.4} // percentage price for small, medium, large, xl
 	double price_per_size;
-	int choice_size, choice, price;
+	int choice_size, choice, price, total_price;
 	char pizza_type;
 
 	/* Display pizza  */
@@ -78,9 +78,11 @@ public:
 		else
 			price = price_pizza[4]
 		
+		pizza_size();   // call size method
+		
 	}
 	/* method to display pizza size */
-	void pizzaSize()
+	int pizzaSize()
 	{
 		do
 		{
@@ -95,17 +97,19 @@ public:
 		switch (choice)
 		{
 		case 1:
-			smallPrice();
+			total_price = price * percentage_per_size[0];
 		case 2:
-			mediumPrice();
+			total_price = price * percentage_per_size[1];
 		case 3:
-			largePrice();
+			total_price = price * percentage_per_size[2];
 		case 4:
-			xLargePrice();
+			total_price = price * percentage_per_size[3];
 		default:
 			cout << "Choose Right size" << endl;
 			pizzaSize();
 		}
+
+		return total_price;
 	}
 
 	/* Small price pizzaa */
