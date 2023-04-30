@@ -1,7 +1,9 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "ostream": "cpp"
+        "*.embeddedhtml": "html",
+        "ostream": "cpp",
+        "iostream": "cpp"
     },
     "cSpell.words": [
         "cout",
